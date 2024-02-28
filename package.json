@@ -1,0 +1,25 @@
+{
+  "name": "daily-poem-cli",
+  "version": "1.0.0",
+  "description": "get daily poems right in your terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RJ-github/daily-poetry-cli.git"
+  },
+  "author": "Roland Life",
+  "license": "ISC",
+  "bin": {
+    "poem": "bin/poem"
+  },
+  "bugs": {
+    "url": "https://github.com/RJ-github/daily-poetry-cli/issues"
+  },
+  "homepage": "https://github.com/RJ-github/daily-poetry-cli#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
