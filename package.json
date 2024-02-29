@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/RJ-github/daily-poetry-cli#readme",
   "dependencies": {
-    "minimist": "^1.2.8"
+    "axios": "^1.6.7",
+    "minimist": "^1.2.8",
+    "ora": "^8.0.1"
   }
 }
