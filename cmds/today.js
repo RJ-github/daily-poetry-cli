@@ -1,13 +1,17 @@
 const getPoem = require('../utils/poem.js');
+const ora = require('ora');
 
 module.exports = async (args) => {
-	console.log('Getting poem...');
+	const spinner = ora({spinner: 'aesthetic'}).start();
 	try {
 		const poem = await getPoem();
 
-		console.log(poem);
+		spinner.stop();
+
+		console.log('\n', poem);
 	}
 	catch (error) {
+		spinner.stop();
 		console.error(error);
 	}
 }

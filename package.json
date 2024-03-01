@@ -21,7 +21,8 @@
   "homepage": "https://github.com/RJ-github/daily-poetry-cli#readme",
   "dependencies": {
     "axios": "^1.6.7",
+    "cron": "^3.1.6",
     "minimist": "^1.2.8",
-    "ora": "^8.0.1"
+    "ora": "^5.4.1"
   }
 }
