@@ -26,10 +26,6 @@ module.exports = () => {
 			require('./cmds/help.js')(args);
 			break;
 
-		case 'day':
-			require('./cmds/day.js')(args);
-			break;
-
 		default:
 			console.error(`${cmd} is not a valid command`);
 			break;
