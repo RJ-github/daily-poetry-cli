@@ -1,8 +1,10 @@
 const axios = require('axios');
 const fs = require('fs');
 const moment = require('moment');
+const path = require('path');
+const os = require('os');
 
-const POEM_CACHE_FILE = 'poem_cache.json';
+const POEM_CACHE_FILE = path.join(os.homedir(), 'poem_cache.json');
 
 module.exports = async (args) => {
 	try {
