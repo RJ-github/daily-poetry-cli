@@ -2,7 +2,7 @@
 
 > a cli that sends poems straight to your terminal
  
-### Poem retrieval is through the [poetrydb.org](https://poetrydb.org/index.html) database and loading indication is through the [ora](https://github.com/sindresorhus/ora) terminal spinner (v5.4.1)
+### Poem retrieval is through the [poetrydb.org](https://poetrydb.org/index.html) database and time management is through [moment](https://www.npmjs.com/package/moment)
 
 ```
 poem <option>

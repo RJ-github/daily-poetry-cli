@@ -1,5 +1,5 @@
 {
-  "name": "daily-poem-cli",
+  "name": "Versely",
   "version": "1.0.0",
   "description": "get daily poems right in your terminal",
   "main": "index.js",
