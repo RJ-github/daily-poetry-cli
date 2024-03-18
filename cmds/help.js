@@ -1,6 +1,6 @@
 const menus = {
 	main: `
-	outside [command] <options>
+	poem [command] <options>
 
 	today ..................... show poem for the day
 	
