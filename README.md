@@ -4,6 +4,9 @@
  
 ### Poem retrieval is through the [poetrydb.org](https://poetrydb.org/index.html) database and time management is through [moment](https://www.npmjs.com/package/moment)
 
+**YOU NEED TO INSTALL GLOBALLY**
+>npm install -g versely
+
 ```
 poem <option>
 ```
