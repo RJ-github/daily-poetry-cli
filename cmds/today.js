@@ -1,5 +1,4 @@
 const getPoem = require('../utils/poem.js');
-const cron = require('cron');
 
 module.exports = async (args) => {
 	try {
@@ -8,20 +7,6 @@ module.exports = async (args) => {
 	}
 	catch (error) {
 		console.error("Error occured in today.js: ", error);
-	}
-}
-
-async function storePoem() {
-	try {
-		const poem = await getPoem();
-
-		let poemArr = [];
-
-		poemArr.push(poem);
-		console.log(poemArr);
-	}
-	catch (err) {
-		console.error(err);
 	}
 }
 
