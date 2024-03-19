@@ -1,7 +1,7 @@
 {
   "name": "versely",
-  "version": "2.0.0",
-	"preferGlobal": true,
+  "version": "2.0.1",
+  "preferGlobal": true,
   "description": "get daily poems right in your terminal",
   "main": "index.js",
   "scripts": {
