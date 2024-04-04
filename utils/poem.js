@@ -31,9 +31,7 @@ async function fetchPoem() {
 		if(poemJson.length > 0 && poemJson[0].lines) {
 			const poemLines = poemJson[0].lines;
 			const poem = poemLines.join('\n');
-			console.log('\nAuthor: ', poemAuthor);
-			console.log('\nTitle: ', poemTitle, "\n");
-			return poem;
+			return {poemAuthor, poemTitle, poem};
 		}
 		else {
 			throw new Error('No poem data found');
